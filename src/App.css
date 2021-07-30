@@ -1,10 +1,118 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: hsl(351, 87%, 94%);
+}
+.title{
+ width: 100%;
+ text-align: center;
+}
+.title-img{
+  margin-top: 10px;
+  width: 65%;
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content{
+  background-color: white;
+  width: 65%;
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 5px;
+  border-top: sandybrown;
+}
+
+h1{
+  margin-left: 30px;
+}
+p{
+  margin-left: 30px;
+}
+
+.top-border{
+  width: 100%;
+  height: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-left: 1px solid rgb(187, 187, 187);
+  border-right: 1px solid rgb(187, 187, 187);
+  background-color:rgb(255, 123, 145);
+}
+
+.red{
+  color: red;
+}
+
+.name,.email,.phone,.pageUrl,.about{
+  margin-top: 10px;
+  background-color: white;
+  width: 100%;
+  height: 150px;
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 5px;
+}
+.Error{
+  margin-top: 10px;
+  background-color: white;
+  width: 100%;
+  height: 150px;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+/* span{
+  color: red;
+  margin-left: 30px;
+} */
+.form2{
+  width: 65%;
+}
+
+.input{
+  margin-left: 30px;
+}
+TextField{
+  margin-left: 30px;
+}
+
+.small{
+  margin-top: -10px;
+  font-size:small;
+}
+.extra_small{
+  color: rgb(94, 91, 91);
+  margin-top: 10px;
+  font-size: small;
+}
+.extra_small a{
+  color: black;
+}
+.submit{
+  margin-top: 10px;
+}
+
+.google__form{
+  margin: 40px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.google__form a{
+  text-decoration: none;
+  color: rgb(94, 91, 91);;
+}
+
+@media (max-width: 1222px) {
+  div.title-img{
+    width: 95%;
+  }
+  div.content{
+    width: 95%;
+  }
+  div.form2{
+    width: 95%;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
