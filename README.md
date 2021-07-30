@@ -3,7 +3,8 @@
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `npm install validator`
+### `npm install @material-ui/core`
 ### `npm start`
 
 Runs the app in the development mode.\
